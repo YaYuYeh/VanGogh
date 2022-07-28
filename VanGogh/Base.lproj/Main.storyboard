@@ -66,7 +66,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N1d-Pt-gFT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-548" y="516"/>
+            <point key="canvasLocation" x="-609" y="413"/>
         </scene>
         <!--Paintings-->
         <scene sceneID="mTg-uX-JHs">
@@ -104,8 +104,33 @@
                                             <segue destination="54f-bB-3pu" kind="show" id="qGv-xx-OXh"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="HVM-Dy-jNA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="ADI-32-DqG">
                                         <rect key="frame" x="0.0" y="183.5" width="414" height="139"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ADI-32-DqG" id="csd-NI-oaQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="花瓶裡的十五朵向日葵" translatesAutoresizingMaskIntoConstraints="NO" id="xFj-hD-ktW">
+                                                    <rect key="frame" x="20" y="9" width="151" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Vase with Fifteen Sunflowers" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l2o-LK-Kgh">
+                                                    <rect key="frame" x="224" y="43" width="136" height="51.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bpP-Iz-37y" kind="show" id="POY-bb-kCb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="HVM-Dy-jNA">
+                                        <rect key="frame" x="0.0" y="322.5" width="414" height="139"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HVM-Dy-jNA" id="8y9-bZ-dIb">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
@@ -130,7 +155,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="0xT-oM-S6f">
-                                        <rect key="frame" x="0.0" y="322.5" width="414" height="139"/>
+                                        <rect key="frame" x="0.0" y="461.5" width="414" height="139"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0xT-oM-S6f" id="7SJ-sB-GLb">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
@@ -150,9 +175,12 @@
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="mjo-hO-Wyb" kind="show" id="b85-Sn-fGk"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="cYQ-9g-2ng">
-                                        <rect key="frame" x="0.0" y="461.5" width="414" height="139"/>
+                                        <rect key="frame" x="0.0" y="600.5" width="414" height="139"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cYQ-9g-2ng" id="Bcp-qE-t0o">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
@@ -174,9 +202,12 @@ the Rhone</string>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HLd-B7-A04" kind="show" id="B9U-nG-FMe"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="CeQ-xk-gSM">
-                                        <rect key="frame" x="0.0" y="600.5" width="414" height="139"/>
+                                        <rect key="frame" x="0.0" y="739.5" width="414" height="139"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CeQ-xk-gSM" id="8c9-C2-DM8">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
@@ -196,28 +227,9 @@ the Rhone</string>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="ADI-32-DqG">
-                                        <rect key="frame" x="0.0" y="739.5" width="414" height="139"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ADI-32-DqG" id="csd-NI-oaQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="花瓶裡的十五朵向日葵" translatesAutoresizingMaskIntoConstraints="NO" id="xFj-hD-ktW">
-                                                    <rect key="frame" x="20" y="9" width="151" height="120"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Vase with Fifteen Sunflowers" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l2o-LK-Kgh">
-                                                    <rect key="frame" x="224" y="43" width="136" height="51.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    <color key="textColor" systemColor="labelColor"/>
-                                                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
-                                            </subviews>
-                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Cm3-x7-7Ss" kind="show" id="kIN-lK-JDS"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="PsA-ch-auK">
                                         <rect key="frame" x="0.0" y="878.5" width="414" height="139"/>
@@ -240,6 +252,9 @@ the Rhone</string>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0Gh-16-GWq" kind="show" id="xwe-oK-bxw"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="OV0-qg-UwT">
                                         <rect key="frame" x="0.0" y="1017.5" width="414" height="139"/>
@@ -253,7 +268,7 @@ the Rhone</string>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The Starry Night " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Z1e-Zu-pyd">
-                                                    <rect key="frame" x="226" y="53" width="133.5" height="34"/>
+                                                    <rect key="frame" x="224" y="53" width="133.5" height="34"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <color key="textColor" systemColor="labelColor"/>
@@ -262,6 +277,9 @@ the Rhone</string>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="a86-Wa-ujo" kind="show" id="vkK-LN-XDS"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="hRv-3H-E8A">
                                         <rect key="frame" x="0.0" y="1156.5" width="414" height="139"/>
@@ -287,30 +305,8 @@ in Arles </string>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="Q8O-Mq-Sn0">
-                                        <rect key="frame" x="0.0" y="1295.5" width="414" height="139"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q8O-Mq-Sn0" id="I1n-mc-pGr">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="午睡" translatesAutoresizingMaskIntoConstraints="NO" id="qtV-Kh-PZo">
-                                                    <rect key="frame" x="20" y="10" width="151" height="120"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Noon: Rest from Work" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t4m-2L-D1g">
-                                                    <rect key="frame" x="215" y="42" width="169.5" height="34"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    <color key="textColor" systemColor="labelColor"/>
-                                                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="bdn-tJ-M3l">
-                                        <rect key="frame" x="0.0" y="1434.5" width="414" height="139"/>
+                                        <rect key="frame" x="0.0" y="1295.5" width="414" height="139"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bdn-tJ-M3l" id="jde-u4-9ce">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
@@ -330,6 +326,9 @@ in Arles </string>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DeR-WD-06p" kind="show" id="LfV-DG-dhJ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -369,14 +368,14 @@ Van Gogh Museum, Amsterdam</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="5bS-qy-PaD">
-                                <rect key="frame" x="47" y="451" width="320" height="335"/>
+                                <rect key="frame" x="47" y="451" width="320" height="340"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">The Potato Eaters, completed in 1885, is considered by many to be Van Gogh's first great work of art.
+                                <string key="text">The Potato Eaters, completed in 1885, is considered by many to be Van Gogh's first great work of art.
 
 The painting had to depict the harsh reality of country life, so he gave the peasants coarse faces and bony, working hands. He wanted to show in this way that they ‘have tilled the earth themselves with these hands they are putting in the dish ... that they have thus honestly earned their food’.
 
-He painted the five figures in earth colours – ‘something like the colour of a really dusty potato, unpeeled of course’. The message of the painting was more important to Van Gogh than correct anatomy or technical perfection. He was very pleased with the result: yet his painting drew considerable criticism because its colours were so dark and the figures full of mistakes. Nowadays, the Potato Eaters is one of Van Gogh’s most famous works.</mutableString>
+He painted the five figures in earth colours – ‘something like the colour of a really dusty potato, unpeeled of course’. The message of the painting was more important to Van Gogh than correct anatomy or technical perfection. He was very pleased with the result: yet his painting drew considerable criticism because its colours were so dark and the figures full of mistakes. Nowadays, the Potato Eaters is one of Van Gogh’s most famous works.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -394,7 +393,7 @@ He painted the five figures in earth colours – ‘something like the colour of
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="nyn-qZ-xF4" kind="show" id="hQq-hv-T1q"/>
+                                    <segue destination="Fa3-8I-O3E" kind="show" id="YOi-Bc-CLp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -405,7 +404,7 @@ He painted the five figures in earth colours – ‘something like the colour of
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhf-ct-lKW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1515.9420289855075" y="732.58928571428567"/>
+            <point key="canvasLocation" x="2869.5652173913045" y="1524.7767857142856"/>
         </scene>
         <!--Paintings-->
         <scene sceneID="V2D-4b-giy">
@@ -427,43 +426,6 @@ He painted the five figures in earth colours – ‘something like the colour of
             <point key="canvasLocation" x="170" y="733"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="t3V-zV-FEm">
-            <objects>
-                <viewController id="KoZ-0m-5IZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aBa-iU-cbG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="TQK-qE-d94"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZMs-FH-R1o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="561" y="-589"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="WBC-EX-cMG">
-            <objects>
-                <viewController id="nyn-qZ-xF4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iEt-zS-dXm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="吃馬鈴薯的人" translatesAutoresizingMaskIntoConstraints="NO" id="1oZ-0i-t40">
-                                <rect key="frame" x="0.0" y="301" width="414" height="294"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Sh-Jk-Wjh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="dO0-wq-fJM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FAR-RH-BdP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2192.753623188406" y="732.58928571428567"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="Wcy-hb-Rbj">
             <objects>
                 <viewController id="uRa-LB-V5e" sceneMemberID="viewController">
@@ -472,14 +434,16 @@ He painted the five figures in earth colours – ‘something like the colour of
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="FNm-kY-wWh">
-                                <rect key="frame" x="47" y="473" width="320" height="313"/>
+                                <rect key="frame" x="47" y="472" width="320" height="319"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">The Potato Eaters, completed in 1885, is considered by many to be Van Gogh's first great work of art.
+                                <mutableString key="text">In the center of the canvas Van Gogh shows a billiards table not being used. We see 3 walls of the room with a door opposite the viewer. The walls are lined with tables and chairs, some occupied by figures, hunched over the tables. Most of the six figures are men, but there is a woman at one table. Standing close to the pool table, leaning on another table is a standing figure wearing white, the owner of the café. On the far wall by the door there is a bar with bottles on top and a vase of flowers in the center. 
 
-The painting had to depict the harsh reality of country life, so he gave the peasants coarse faces and bony, working hands. He wanted to show in this way that they ‘have tilled the earth themselves with these hands they are putting in the dish ... that they have thus honestly earned their food’.
+Van Gogh was interested in these people “Night prowlers” he called that stayed there because they “had no money to pay for a lodging, or are too drunk to be taken in.” He imagined that they saw themselves as travelers without a native land, and he himself imagined himself the same way. While he didn’t see himself like them, he imagined having similar feelings.
 
-He painted the five figures in earth colours – ‘something like the colour of a really dusty potato, unpeeled of course’. The message of the painting was more important to Van Gogh than correct anatomy or technical perfection. He was very pleased with the result: yet his painting drew considerable criticism because its colours were so dark and the figures full of mistakes. Nowadays, the Potato Eaters is one of Van Gogh’s most famous works.</mutableString>
+In a letter to his brother, Van Gogh called the painting “the ugliest I’ve done” and gave it to Joseph Ginoux the owner of the café as payment for his room. Also, used it to settle debts with Ginoux. 
+
+His calling the painting ugly is also a description of the room and the feeling you get from it. In his description of the painting, he uses words like “blood-red” to describe the color on the walls, “battle” to describe the contrast of reds and greens, and refers to those in the room as “ruffians.” The harsh colors and disorienting perspective reflect the overall sadness, bitterness, and loneliness, of those in the room. All of this adds up to an idea of if you are in this café at that late hour, something isn’t going right in your life.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -501,7 +465,7 @@ He painted the five figures in earth colours – ‘something like the colour of
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="4Mo-xz-z1k" kind="show" id="mjh-Ve-qsz"/>
+                                    <segue destination="XwN-bl-t0R" kind="show" id="bvb-m4-ebX"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4ji-0g-1VU">
@@ -523,29 +487,839 @@ Yale University Art Gallery, New Haven</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="knT-if-HOp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1515.9420289855075" y="1380.8035714285713"/>
+            <point key="canvasLocation" x="1553.6231884057972" y="1524.7767857142856"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="fGy-yy-4m7">
+        <scene sceneID="o0h-it-36o">
             <objects>
-                <viewController id="4Mo-xz-z1k" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="t1Y-N3-vtC">
+                <viewController id="mjo-hO-Wyb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h8N-im-eF7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="夜間咖啡館" translatesAutoresizingMaskIntoConstraints="NO" id="Yd9-vW-usR">
-                                <rect key="frame" x="0.0" y="283" width="414" height="330"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="afM-xH-0AS">
+                                <rect key="frame" x="47" y="565" width="320" height="226"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Café Terrace at Night is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening (Café, le soir).
+
+Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888. The painting is not signed, but described and mentioned by the artist in three letters.
+
+Visitors to the site can stand at the north eastern corner of the Place du Forum, where the artist set up his easel. The site was refurbished in 1990 and 1991 to replicate van Gogh's painting. He looked south towards the artificially lit terrace of the popular coffee house, as well as into the enforced darkness of the rue du Palais which led up to a building structure and, beyond this structure, the tower of a former church which is now Musée Lapidaire.
+
+Towards the right, Van Gogh indicated a lighted shop and some branches of the trees surrounding the place, but he omitted the remainders of the Roman monuments just beside this little shop.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cafe Terrace at Night" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heM-Dq-Faq">
+                                <rect key="frame" x="124" y="98" width="167" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="夜晚露天咖啡座" translatesAutoresizingMaskIntoConstraints="NO" id="weX-3I-YVY">
+                                <rect key="frame" x="67" y="138" width="281" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rfv-gt-moG">
+                                <rect key="frame" x="67" y="490" width="239.5" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Sep, 1888
+oil on canvas, 80.7 x 65.3 cm Kröller-Müller Museum, Otterlo</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1D-eH-4i1">
+                                <rect key="frame" x="67" y="138" width="281" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="AgL-4a-3rA" kind="show" id="n6l-0Z-ywV"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="cTB-vx-pWd"/>
+                        <viewLayoutGuide key="safeArea" id="oDQ-r6-0xc"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bCV-9N-f0u"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Thm-pO-Pb7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="892.75362318840587" y="1524.7767857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="frN-is-dVb">
+            <objects>
+                <viewController id="HLd-B7-A04" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vac-lm-ZxU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="JCC-rg-Cvh">
+                                <rect key="frame" x="47" y="478" width="320" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+
+The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
+
+Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
+
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Starry Night Over the Rhone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Bo-XS-8wQ">
+                                <rect key="frame" x="86" y="98" width="226" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WRI-jS-l6p">
+                                <rect key="frame" x="38" y="403" width="292" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">sep,1888
+oil on canvas, 72.5 x 92 cm
+Musée d'Orsay, Paris</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="羅納河上的星夜" translatesAutoresizingMaskIntoConstraints="NO" id="BBV-Xc-tVQ">
+                                <rect key="frame" x="38" y="138" width="339" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEi-UQ-WHK">
+                                <rect key="frame" x="38" y="138" width="339" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="agx-yW-Mtg" kind="show" id="hCw-Af-9sS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Cf3-R4-yp2"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oIM-YV-2ot"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2wD-eV-rfd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mZe-DN-aef">
+            <objects>
+                <viewController id="agx-yW-Mtg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gAg-n4-JXw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="xDy-ax-oLP">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8fl-Gu-3fF">
+                                        <rect key="frame" x="0.0" y="0.0" width="892" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="羅納河上的星夜" translatesAutoresizingMaskIntoConstraints="NO" id="KWb-El-ZwV">
+                                                <rect key="frame" x="0.0" y="0.0" width="892" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="coP-n0-iXU"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Hyv-ZH-3eC"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="zXV-Vp-mCO"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="892" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WL4-rC-YHF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nnQ-sK-fk7"/>
+                    <navigationItem key="navigationItem" id="Gyb-Ub-BcE"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ypk-Mk-x3R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDe-nv-Z4U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2192.753623188406" y="1380.8035714285713"/>
+            <point key="canvasLocation" x="245" y="2196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gyy-2w-nFo">
+            <objects>
+                <viewController id="Cm3-x7-7Ss" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0kG-iB-PSl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="db7-tx-ttk">
+                                <rect key="frame" x="47" y="553" width="320" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">This famous painting, Self-Portrait with Bandaged Ear by Vincent van Gogh, expresses his artistic power and personal struggles. Van Gogh painted it in January 1889, a week after leaving hospital. He had received treatment there after cutting off most of his left ear (shown here as the bandaged right ear because he painted himself in a mirror). This self-mutilation was a desperate act committed a few weeks earlier, following a heated argument with his fellow painter Paul Gauguin.
+
+The fur cap Van Gogh wears in this painting is a reminder of the harsh working conditions he faced in January 1889. This self-portrait is thus powerful proof of Van Gogh’s determination to continue painting. It is reinforced by the objects behind him, which take on a symbolic meaning: a canvas on an easel,  and a Japanese print, an important source of inspiration. This Japanese print has been identified as a Geishas in a Landscape published by Sato Tokyo in the 1870s. This shows an important influence of Japonism and wood block print on Van Gogh's work.
+
+The painting is composed of impasto strokes, mostly in a vertical pattern. This creates a texture, which comes up off the canvas and adds dimension to the flat surface. The skin tone is muted with green and yellowish tones. Van Gogh used a mirror for his self-portraits which is why some mistakenly think that he lost part of his right ear instead of his left.
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Self-Portrait with Bandaged Ear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2O-ei-Lsm">
+                                <rect key="frame" x="84" y="98" width="246" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AQe-42-oG4">
+                                <rect key="frame" x="67" y="479" width="292" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Jan, 1889
+oil on canvas, 60 x 49 cm
+Courtauld Gallery, London</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="耳朵綁上繃帶的自畫像" translatesAutoresizingMaskIntoConstraints="NO" id="Pan-cH-Ily">
+                                <rect key="frame" x="67" y="138" width="281" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elD-Vc-852">
+                                <rect key="frame" x="66" y="138" width="281" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="NkA-Dc-o2Y" kind="show" id="sO7-mx-jdw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kxy-KK-yvP"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lph-Hl-WTt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qD4-nr-HkR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-413.04347826086962" y="1524.7767857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="33r-xZ-PZu">
+            <objects>
+                <viewController id="NkA-Dc-o2Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zc2-AE-IYM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="7au-FL-83F">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdK-Qs-udi">
+                                        <rect key="frame" x="0.0" y="0.0" width="565" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="耳朵綁上繃帶的自畫像" translatesAutoresizingMaskIntoConstraints="NO" id="bMD-Se-F03">
+                                                <rect key="frame" x="0.0" y="0.0" width="565" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="kM0-gP-w6v"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="AtR-M1-v2X"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="UHV-sB-JeL"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="565" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yX9-cW-uY8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ILZ-0O-8oa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJZ-Cz-wHU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-413" y="2196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lxZ-I6-oAl">
+            <objects>
+                <viewController id="AgL-4a-3rA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N4Q-Ng-AGJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="bYo-vz-3po">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-OS-2dh">
+                                        <rect key="frame" x="0.0" y="0.0" width="557" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="夜晚露天咖啡座" translatesAutoresizingMaskIntoConstraints="NO" id="I6S-fC-aTs">
+                                                <rect key="frame" x="0.0" y="0.0" width="557" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="d7H-vJ-fEB"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Yzf-kh-Eyk"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="VCN-2L-cTF"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="557" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iPh-pF-zvW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Wd-PH-B5d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="meN-P2-1tn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="893" y="2196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v17-qA-Jdk">
+            <objects>
+                <viewController id="XwN-bl-t0R" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jSB-LZ-nXW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="cc2-fB-G8P">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4VO-sM-CeQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="890" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="夜間咖啡館" translatesAutoresizingMaskIntoConstraints="NO" id="He1-7n-Q6p">
+                                                <rect key="frame" x="0.0" y="0.0" width="890" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="cq1-0S-8XD"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="8xb-rt-wip"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Aax-yK-eoe"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="890" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eQM-Cs-0XY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ctr-tH-uOO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OR2-r6-SFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1554" y="2196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="God-AI-scu">
+            <objects>
+                <viewController id="Fa3-8I-O3E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ino-gn-VHk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="iv0-Sz-Sgr">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rsh-AM-JZH">
+                                        <rect key="frame" x="0.0" y="0.0" width="984" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="吃馬鈴薯的人" translatesAutoresizingMaskIntoConstraints="NO" id="fAQ-uX-gra">
+                                                <rect key="frame" x="0.0" y="0.0" width="984" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="JiA-3Z-2rs"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="MYq-34-PmU"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Wqd-AM-1Yw"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="984" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4PL-Ub-aP7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4mW-ku-UuQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nJW-uP-AcB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2870" y="2196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XRg-g0-Wry">
+            <objects>
+                <viewController id="bpP-Iz-37y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yuT-0R-G40">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="JdL-Un-mKG">
+                                <rect key="frame" x="47" y="571" width="320" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">This famous painting, Self-Portrait with Bandaged Ear by Vincent van Gogh, expresses his artistic power and personal struggles. Van Gogh painted it in January 1889, a week after leaving hospital. He had received treatment there after cutting off most of his left ear (shown here as the bandaged right ear because he painted himself in a mirror). This self-mutilation was a desperate act committed a few weeks earlier, following a heated argument with his fellow painter Paul Gauguin.
+
+The fur cap Van Gogh wears in this painting is a reminder of the harsh working conditions he faced in January 1889. This self-portrait is thus powerful proof of Van Gogh’s determination to continue painting. It is reinforced by the objects behind him, which take on a symbolic meaning: a canvas on an easel,  and a Japanese print, an important source of inspiration. This Japanese print has been identified as a Geishas in a Landscape published by Sato Tokyo in the 1870s. This shows an important influence of Japonism and wood block print on Van Gogh's work.
+
+The painting is composed of impasto strokes, mostly in a vertical pattern. This creates a texture, which comes up off the canvas and adds dimension to the flat surface. The skin tone is muted with green and yellowish tones. Van Gogh used a mirror for his self-portraits which is why some mistakenly think that he lost part of his right ear instead of his left.
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vase with Fifteen Sunflowers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYK-fu-bU8">
+                                <rect key="frame" x="93" y="98" width="227" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jWc-7m-Y93">
+                                <rect key="frame" x="67" y="497" width="292" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Aug, 1888
+oil on canvas, 93 x 73 cm
+National Gallery, London</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="花瓶裡的十五朵向日葵" translatesAutoresizingMaskIntoConstraints="NO" id="Lf3-r0-5S4">
+                                <rect key="frame" x="66" y="138" width="281" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL0-YR-01h">
+                                <rect key="frame" x="66" y="138" width="281" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="By3-qv-zSf" kind="show" id="hVb-2A-iI2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T2K-0c-Ooh"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KpR-DL-ZMv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UG6-Lp-EfO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2213.04347826087" y="1524.7767857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gRw-X0-Uur">
+            <objects>
+                <viewController id="By3-qv-zSf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kwN-Fb-crY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="0sr-Ci-yDc">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DdL-DA-PXS">
+                                        <rect key="frame" x="0.0" y="0.0" width="549" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="花瓶裡的十五朵向日葵" translatesAutoresizingMaskIntoConstraints="NO" id="BWC-Gk-Jsw">
+                                                <rect key="frame" x="0.0" y="0.0" width="549" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="OaA-R1-4yM"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="BFg-Xo-3cv"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="8qO-Fi-SwW"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="549" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PeR-gS-2qH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nIj-NT-Okw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="THc-Sj-NI8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2213" y="2196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WJO-Bt-iXm">
+            <objects>
+                <viewController id="0Gh-16-GWq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qw0-Fw-jGe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="0IB-ov-hM4">
+                                <rect key="frame" x="47" y="478" width="320" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+
+The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
+
+Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
+
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Irises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgC-HP-Sx1">
+                                <rect key="frame" x="186" y="98" width="42" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rX3-ox-Rr2">
+                                <rect key="frame" x="38" y="403" width="292" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">sep,1888
+oil on canvas, 72.5 x 92 cm
+Musée d'Orsay, Paris</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="鳶尾花" translatesAutoresizingMaskIntoConstraints="NO" id="89B-1w-N3b">
+                                <rect key="frame" x="38" y="138" width="339" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htn-sd-77V">
+                                <rect key="frame" x="38" y="138" width="339" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="4eu-Di-RzO" kind="show" id="e9D-eI-lNE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="x1s-wX-04y"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lWP-5X-zb2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NiL-XJ-y55" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1071" y="1525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ggq-xQ-EH0">
+            <objects>
+                <viewController id="4eu-Di-RzO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oJB-aU-FT7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="F0i-OX-mIc">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="88J-Qu-VqW">
+                                        <rect key="frame" x="0.0" y="0.0" width="880" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="鳶尾花" translatesAutoresizingMaskIntoConstraints="NO" id="bhV-AW-Jcg">
+                                                <rect key="frame" x="-4" y="0.0" width="884" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="yPn-Pe-b2a"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="vQq-88-tor"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="A7E-LE-cch"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="880" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LQ9-v3-cBJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Sk-mR-c8s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wos-A5-efr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1071" y="2196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6ZP-rJ-WHc">
+            <objects>
+                <viewController id="a86-Wa-ujo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZSG-0q-V8q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="nDh-6I-ZMh">
+                                <rect key="frame" x="47" y="478" width="320" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+
+The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
+
+Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
+
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Starry Night " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BrU-Oh-FIO">
+                                <rect key="frame" x="139" y="98" width="135" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iXq-9w-jJg">
+                                <rect key="frame" x="38" y="403" width="292" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">sep,1888
+oil on canvas, 72.5 x 92 cm
+Musée d'Orsay, Paris</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="星夜" translatesAutoresizingMaskIntoConstraints="NO" id="fwZ-1b-Hdo">
+                                <rect key="frame" x="38" y="138" width="339" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SP-M0-iCN">
+                                <rect key="frame" x="38" y="138" width="339" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="LQV-7Y-LLI" kind="show" id="3eq-a9-6tM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QZG-tf-Z84"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rmn-hF-d7Y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYk-yT-0qD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1730.4347826086957" y="1524.7767857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="14S-bb-ApA">
+            <objects>
+                <viewController id="LQV-7Y-LLI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gaG-5V-Yos">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="sTp-JQ-hf1">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XbK-nh-Ehn">
+                                        <rect key="frame" x="0.0" y="0.0" width="876" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="星夜" translatesAutoresizingMaskIntoConstraints="NO" id="NBn-HU-zMH">
+                                                <rect key="frame" x="0.0" y="0.0" width="876" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="2cT-kK-gbe"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="eb5-Pw-xfK"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3cc-dq-XXy"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="876" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JJ4-oe-hhC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qcT-a3-gMm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPT-Sv-Tde" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1730.4347826086957" y="2195.7589285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aIl-or-gDp">
+            <objects>
+                <viewController id="DeR-WD-06p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QaZ-OK-7Od">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="EZK-0T-H1D">
+                                <rect key="frame" x="47" y="370" width="320" height="421"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+
+The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
+
+Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
+
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wheatfield with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0G-eY-ByQ">
+                                <rect key="frame" x="143" y="98" width="128" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pzJ-3l-SA3">
+                                <rect key="frame" x="38" y="295" width="292" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">sep,1888
+oil on canvas, 72.5 x 92 cm
+Musée d'Orsay, Paris</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="麥田群鴉" translatesAutoresizingMaskIntoConstraints="NO" id="Z8f-5J-OKu">
+                                <rect key="frame" x="38" y="138" width="339" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuI-zn-ALl">
+                                <rect key="frame" x="38" y="138" width="339" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="LcR-XM-QFP" kind="show" id="QXo-sz-prp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mvd-Yk-ghB"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Npo-1g-J4P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LPJ-2t-GBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3017.3913043478265" y="1524.7767857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ipt-lK-9nz">
+            <objects>
+                <viewController id="LcR-XM-QFP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ipn-Ta-BfE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="9CL-X2-PTe">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wCR-Ep-wwL">
+                                        <rect key="frame" x="0.0" y="0.0" width="1487" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="麥田群鴉" translatesAutoresizingMaskIntoConstraints="NO" id="J5H-A9-CO5">
+                                                <rect key="frame" x="-2" y="0.0" width="1487" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="qmL-tG-JRP"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="DB1-NR-BRc"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7Gs-zF-v1E"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="1487" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ybj-E1-jR2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OFA-Ro-Rrl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DZl-3O-wHq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3017.3913043478265" y="2195.7589285714284"/>
         </scene>
     </scenes>
     <resources>
@@ -554,7 +1328,6 @@ Yale University Art Gallery, New Haven</string>
         <image name="paintpalette" catalog="system" width="128" height="105"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="person.text.rectangle" catalog="system" width="128" height="93"/>
-        <image name="午睡" width="756" height="591"/>
         <image name="吃馬鈴薯的人" width="960" height="676"/>
         <image name="在亞爾的臥室version3" width="1200" height="930"/>
         <image name="夜晚露天咖啡座" width="960" height="1215"/>
@@ -562,7 +1335,7 @@ Yale University Art Gallery, New Haven</string>
         <image name="星夜" width="738" height="590"/>
         <image name="羅納河上的星夜" width="600" height="473"/>
         <image name="耳朵綁上繃帶的自畫像" width="960" height="1189"/>
-        <image name="花瓶裡的十五朵向日葵" width="900" height="1179"/>
+        <image name="花瓶裡的十五朵向日葵" width="629" height="800"/>
         <image name="鳶尾花" width="960" height="771"/>
         <image name="麥田群鴉" width="2750" height="1304"/>
         <systemColor name="labelColor">

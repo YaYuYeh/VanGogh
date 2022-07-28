@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+VanGogh in VanGogh, no dependencies
+VanGogh in VanGogh, no dependencies

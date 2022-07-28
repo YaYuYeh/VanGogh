@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c997c0133d9113fd2153a249524d8c7f899e008e555b377063b1a3433d00d827"
+    }
+  ],
+  "containerPath" : "/Users/yeh/Desktop/project/VanGogh/VanGogh.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yeh/Desktop/project/VanGogh/DerivedData/VanGogh/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yeh/Desktop/project/VanGogh/DerivedData/VanGogh/Index/Build/Products",
+      "derivedDataPath" : "/Users/yeh/Desktop/project/VanGogh/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/yeh/Desktop/project/VanGogh/DerivedData/VanGogh/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yeh/Desktop/project/VanGogh/DerivedData/VanGogh/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/yeh/Desktop/project/VanGogh/DerivedData/VanGogh/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/yeh/Desktop/project/VanGogh/DerivedData/VanGogh/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
