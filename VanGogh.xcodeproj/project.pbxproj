@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841E86492897A1B500F8944C /* BedroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841E86482897A1B500F8944C /* BedroomViewController.swift */; };
 		842B4CC5288B061C005C7492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B4CC4288B061C005C7492 /* AppDelegate.swift */; };
 		842B4CC7288B061C005C7492 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B4CC6288B061C005C7492 /* SceneDelegate.swift */; };
 		842B4CC9288B061C005C7492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B4CC8288B061C005C7492 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841E86482897A1B500F8944C /* BedroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomViewController.swift; sourceTree = "<group>"; };
 		842B4CC1288B061C005C7492 /* VanGogh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanGogh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842B4CC4288B061C005C7492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842B4CC6288B061C005C7492 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				842B4CC4288B061C005C7492 /* AppDelegate.swift */,
 				842B4CC6288B061C005C7492 /* SceneDelegate.swift */,
 				842B4CC8288B061C005C7492 /* ViewController.swift */,
+				841E86482897A1B500F8944C /* BedroomViewController.swift */,
 				842B4CCA288B061C005C7492 /* Main.storyboard */,
 				842B4CCD288B061D005C7492 /* Assets.xcassets */,
 				842B4CCF288B061D005C7492 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842B4CC9288B061C005C7492 /* ViewController.swift in Sources */,
+				841E86492897A1B500F8944C /* BedroomViewController.swift in Sources */,
 				842B4CC5288B061C005C7492 /* AppDelegate.swift in Sources */,
 				842B4CC7288B061C005C7492 /* SceneDelegate.swift in Sources */,
 			);

@@ -74,6 +74,40 @@
 			<key>uniqueIdentifier</key>
 			<string>05BAC7DB-3B92-4A73-9FE8-7B4BF3A06479</string>
 		</dict>
+		<key>0B0C7090-DD69-4F0D-8F5C-E40484BCE62E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0B0C7090-DD69-4F0D-8F5C-E40484BCE62E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681027509.18064201</real>
+			<key>timeStoppedRecording</key>
+			<real>681028297.282148</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>0B0C7090-DD69-4F0D-8F5C-E40484BCE62E</string>
+		</dict>
 		<key>17516109-1B3E-43B5-B6FE-8A23068A1B0D</key>
 		<dict>
 			<key>className</key>
@@ -107,6 +141,74 @@
 			<string>Run VanGogh</string>
 			<key>uniqueIdentifier</key>
 			<string>17516109-1B3E-43B5-B6FE-8A23068A1B0D</string>
+		</dict>
+		<key>1CE62AFA-D7DD-449F-97DE-E1A0CAEE4CCC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1CE62AFA-D7DD-449F-97DE-E1A0CAEE4CCC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681028303.83315802</real>
+			<key>timeStoppedRecording</key>
+			<real>681028336.32085097</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>1CE62AFA-D7DD-449F-97DE-E1A0CAEE4CCC</string>
+		</dict>
+		<key>236E8968-BAA6-49AE-A67D-E5183AB0C19B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>236E8968-BAA6-49AE-A67D-E5183AB0C19B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681029174.06370604</real>
+			<key>timeStoppedRecording</key>
+			<real>681029211.33046806</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>236E8968-BAA6-49AE-A67D-E5183AB0C19B</string>
 		</dict>
 		<key>239D56DA-7FF1-4BA2-B822-A6FCE0328AB2</key>
 		<dict>
@@ -244,6 +346,40 @@
 			<key>uniqueIdentifier</key>
 			<string>2ABBD4B7-F648-4DEA-81FB-9E0E43140F4A</string>
 		</dict>
+		<key>2DDDD82C-3758-4FD7-BF69-E6DCD92B828D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2DDDD82C-3758-4FD7-BF69-E6DCD92B828D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681030245.73395205</real>
+			<key>timeStoppedRecording</key>
+			<real>681030274.31064606</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>2DDDD82C-3758-4FD7-BF69-E6DCD92B828D</string>
+		</dict>
 		<key>3AE5A29E-E2CD-43A8-9307-8ABE58FF322B</key>
 		<dict>
 			<key>className</key>
@@ -346,6 +482,40 @@
 			<key>uniqueIdentifier</key>
 			<string>4339405C-EC7C-42BF-9529-2307625FEE50</string>
 		</dict>
+		<key>4D7F46E1-809F-44D5-9744-667A08661A4D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4D7F46E1-809F-44D5-9744-667A08661A4D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681029038.90771902</real>
+			<key>timeStoppedRecording</key>
+			<real>681029174.274387</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>4D7F46E1-809F-44D5-9744-667A08661A4D</string>
+		</dict>
 		<key>4FABD428-FA9A-4317-9DF9-85F3C7D5AF9C</key>
 		<dict>
 			<key>className</key>
@@ -379,6 +549,74 @@
 			<string>Run VanGogh</string>
 			<key>uniqueIdentifier</key>
 			<string>4FABD428-FA9A-4317-9DF9-85F3C7D5AF9C</string>
+		</dict>
+		<key>506BF7B1-6267-4ED1-924E-A5CE2DD0B08E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>506BF7B1-6267-4ED1-924E-A5CE2DD0B08E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681025454.36152506</real>
+			<key>timeStoppedRecording</key>
+			<real>681025474.86079001</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>506BF7B1-6267-4ED1-924E-A5CE2DD0B08E</string>
+		</dict>
+		<key>53831843-9A41-4F87-995B-740AB2F0800E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>53831843-9A41-4F87-995B-740AB2F0800E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681032564.14490104</real>
+			<key>timeStoppedRecording</key>
+			<real>681032578.31986201</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>53831843-9A41-4F87-995B-740AB2F0800E</string>
 		</dict>
 		<key>692F23DC-7D01-4BF6-9910-11E8F8D9C3A4</key>
 		<dict>
@@ -550,6 +788,74 @@
 			<key>uniqueIdentifier</key>
 			<string>A97AE6BB-7AE5-4D01-B9A4-C420C235EDE7</string>
 		</dict>
+		<key>B20AB9DC-E86B-4307-B9D3-34BD21884214</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B20AB9DC-E86B-4307-B9D3-34BD21884214.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681027506.65054297</real>
+			<key>timeStoppedRecording</key>
+			<real>681027509.50345397</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>B20AB9DC-E86B-4307-B9D3-34BD21884214</string>
+		</dict>
+		<key>B2C4BD16-421F-4E0B-8C24-658B6C91802B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B2C4BD16-421F-4E0B-8C24-658B6C91802B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681032271.80376804</real>
+			<key>timeStoppedRecording</key>
+			<real>681032300.60763299</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>B2C4BD16-421F-4E0B-8C24-658B6C91802B</string>
+		</dict>
 		<key>B37C2DF4-11DE-4779-BB84-BA81A9788312</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +991,40 @@
 			<string>Run VanGogh</string>
 			<key>uniqueIdentifier</key>
 			<string>D86788EF-5D28-448C-9D93-7C05131C8D6C</string>
+		</dict>
+		<key>E59AFE6F-F482-4918-A3F7-B71B27E03643</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E59AFE6F-F482-4918-A3F7-B71B27E03643.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681027398.52073395</real>
+			<key>timeStoppedRecording</key>
+			<real>681027441.57702005</real>
+			<key>title</key>
+			<string>Run VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>E59AFE6F-F482-4918-A3F7-B71B27E03643</string>
 		</dict>
 		<key>E755DA02-D72C-4E15-A7DE-EBB119F379A2</key>
 		<dict>

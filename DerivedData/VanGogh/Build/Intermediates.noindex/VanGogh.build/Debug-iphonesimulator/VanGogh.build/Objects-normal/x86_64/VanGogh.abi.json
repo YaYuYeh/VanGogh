@@ -221,6 +221,994 @@
     },
     {
       "kind": "TypeDecl",
+      "name": "BedroomViewController",
+      "printedName": "BedroomViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "bedroomButton",
+          "printedName": "bedroomButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIButton?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(py)bedroomButton",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC13bedroomButtonSo8UIButtonCSgvp",
+          "moduleName": "VanGogh",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)bedroomButton",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC13bedroomButtonSo8UIButtonCSgvg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)setBedroomButton:",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC13bedroomButtonSo8UIButtonCSgvs",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC13bedroomButtonSo8UIButtonCSgvM",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC13bedroomButtonSo8UIButtonCSgvM",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bedroomImageView",
+          "printedName": "bedroomImageView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIImageView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(py)bedroomImageView",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC012bedroomImageD0So07UIImageD0CSgvp",
+          "moduleName": "VanGogh",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)bedroomImageView",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC012bedroomImageD0So07UIImageD0CSgvg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)setBedroomImageView:",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC012bedroomImageD0So07UIImageD0CSgvs",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC012bedroomImageD0So07UIImageD0CSgvM",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC012bedroomImageD0So07UIImageD0CSgvM",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bedroomTextView",
+          "printedName": "bedroomTextView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITextView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(py)bedroomTextView",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomTextD0So06UITextD0CSgvp",
+          "moduleName": "VanGogh",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextView",
+                      "printedName": "UIKit.UITextView",
+                      "usr": "c:objc(cs)UITextView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)bedroomTextView",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomTextD0So06UITextD0CSgvg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextView",
+                      "printedName": "UIKit.UITextView",
+                      "usr": "c:objc(cs)UITextView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)setBedroomTextView:",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomTextD0So06UITextD0CSgvs",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC011bedroomTextD0So06UITextD0CSgvM",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomTextD0So06UITextD0CSgvM",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bedroomPageController",
+          "printedName": "bedroomPageController",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIPageControl?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(py)bedroomPageController",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomPageE0So13UIPageControlCSgvp",
+          "moduleName": "VanGogh",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIPageControl?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIPageControl",
+                      "printedName": "UIKit.UIPageControl",
+                      "usr": "c:objc(cs)UIPageControl"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)bedroomPageController",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomPageE0So13UIPageControlCSgvg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIPageControl?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIPageControl",
+                      "printedName": "UIKit.UIPageControl",
+                      "usr": "c:objc(cs)UIPageControl"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)setBedroomPageController:",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomPageE0So13UIPageControlCSgvs",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC011bedroomPageE0So13UIPageControlCSgvM",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC011bedroomPageE0So13UIPageControlCSgvM",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bedroom",
+          "printedName": "bedroom",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7VanGogh21BedroomViewControllerC7bedroomSaySSGvp",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC7bedroomSaySSGvp",
+          "moduleName": "VanGogh",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC7bedroomSaySSGvg",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC7bedroomSaySSGvg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "intro",
+          "printedName": "intro",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7VanGogh21BedroomViewControllerC5introSaySSGvp",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC5introSaySSGvp",
+          "moduleName": "VanGogh",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC5introSaySSGvg",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC5introSaySSGvg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "button",
+          "printedName": "button",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7VanGogh21BedroomViewControllerC6buttonSaySSGvp",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC6buttonSaySSGvp",
+          "moduleName": "VanGogh",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC6buttonSaySSGvg",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC6buttonSaySSGvg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "index",
+          "printedName": "index",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:7VanGogh21BedroomViewControllerC5indexSivp",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC5indexSivp",
+          "moduleName": "VanGogh",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC5indexSivg",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC5indexSivg",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC5indexSivs",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC5indexSivs",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:7VanGogh21BedroomViewControllerC5indexSivM",
+              "mangledName": "$s7VanGogh21BedroomViewControllerC5indexSivM",
+              "moduleName": "VanGogh",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "bedroomControl",
+          "printedName": "bedroomControl(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIPageControl",
+              "printedName": "UIKit.UIPageControl",
+              "usr": "c:objc(cs)UIPageControl"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)bedroomControl:",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC14bedroomControlyySo06UIPageG0CF",
+          "moduleName": "VanGogh",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)viewDidLoad",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC11viewDidLoadyyF",
+          "moduleName": "VanGogh",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BedroomViewController",
+              "printedName": "VanGogh.BedroomViewController",
+              "usr": "c:@M@VanGogh@objc(cs)BedroomViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "VanGogh",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "VanGogh.BedroomViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "BedroomViewController",
+                  "printedName": "VanGogh.BedroomViewController",
+                  "usr": "c:@M@VanGogh@objc(cs)BedroomViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@VanGogh@objc(cs)BedroomViewController(im)initWithCoder:",
+          "mangledName": "$s7VanGogh21BedroomViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "VanGogh",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@VanGogh@objc(cs)BedroomViewController",
+      "mangledName": "$s7VanGogh21BedroomViewControllerC",
+      "moduleName": "VanGogh",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "VanGogh",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
       "name": "AppDelegate",
       "printedName": "AppDelegate",
       "children": [

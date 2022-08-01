@@ -288,7 +288,7 @@ the Rhone</string>
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="139"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="在亞爾的臥室version3" translatesAutoresizingMaskIntoConstraints="NO" id="hl1-Hh-5fP">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="在亞爾的臥室_version3" translatesAutoresizingMaskIntoConstraints="NO" id="hl1-Hh-5fP">
                                                     <rect key="frame" x="20" y="9" width="151" height="120"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -304,6 +304,9 @@ in Arles </string>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="lwg-KX-djV" kind="show" id="yrF-IG-k1R"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="139" id="bdn-tJ-M3l">
                                         <rect key="frame" x="0.0" y="1295.5" width="414" height="139"/>
@@ -316,8 +319,8 @@ in Arles </string>
                                                     <rect key="frame" x="20" y="10" width="151" height="120"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Wheatfield with" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-QM-Xiq">
-                                                    <rect key="frame" x="237" y="42" width="124.5" height="34"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Wheatfield with Crows" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-QM-Xiq">
+                                                    <rect key="frame" x="230" y="44" width="126.5" height="51.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <color key="textColor" systemColor="labelColor"/>
@@ -342,7 +345,7 @@ in Arles </string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F03-rq-2zF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="858" y="733"/>
+            <point key="canvasLocation" x="857.97101449275374" y="732.58928571428567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="V33-Q0-WC4">
@@ -472,7 +475,7 @@ His calling the painting ugly is also a description of the room and the feeling 
                                 <rect key="frame" x="37" y="398" width="323" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Sep, 1888
+                                <string key="text">Sep., 1888
 oil on canvas, 72.4 x 92.1 cm
 Yale University Art Gallery, New Haven</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -527,7 +530,7 @@ Towards the right, Van Gogh indicated a lighted shop and some branches of the tr
                                 <rect key="frame" x="67" y="490" width="239.5" height="56.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Sep, 1888
+                                <string key="text">Sep., 1888
 oil on canvas, 80.7 x 65.3 cm Kröller-Müller Museum, Otterlo</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
@@ -586,7 +589,7 @@ In fact, this night scene was prompted by a genuinely moving experience of the e
                                 <rect key="frame" x="38" y="403" width="292" height="56.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">sep,1888
+                                <string key="text">Sep.,1888
 oil on canvas, 72.5 x 92 cm
 Musée d'Orsay, Paris</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -695,7 +698,7 @@ The painting is composed of impasto strokes, mostly in a vertical pattern. This 
                                 <rect key="frame" x="67" y="479" width="292" height="56.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Jan, 1889
+                                <string key="text">Jan., 1889
 oil on canvas, 60 x 49 cm
 Courtauld Gallery, London</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -921,12 +924,15 @@ Courtauld Gallery, London</string>
                                 <rect key="frame" x="47" y="571" width="320" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">This famous painting, Self-Portrait with Bandaged Ear by Vincent van Gogh, expresses his artistic power and personal struggles. Van Gogh painted it in January 1889, a week after leaving hospital. He had received treatment there after cutting off most of his left ear (shown here as the bandaged right ear because he painted himself in a mirror). This self-mutilation was a desperate act committed a few weeks earlier, following a heated argument with his fellow painter Paul Gauguin.
+                                <mutableString key="text">In August, 1888 Vincent van Gogh began painting his sunflower works, he envisioned works as a series and planned a dozen sunflower works to be hung in the Yellow House which he and Gauguin would use for a studio. Unfortunately, Vincent's race against the changing seasons was unsuccessful and he was only able to complete four sunflower works in August, 1888.
 
-The fur cap Van Gogh wears in this painting is a reminder of the harsh working conditions he faced in January 1889. This self-portrait is thus powerful proof of Van Gogh’s determination to continue painting. It is reinforced by the objects behind him, which take on a symbolic meaning: a canvas on an easel,  and a Japanese print, an important source of inspiration. This Japanese print has been identified as a Geishas in a Landscape published by Sato Tokyo in the 1870s. This shows an important influence of Japonism and wood block print on Van Gogh's work.
+In his typically detailed and precise manner, Van Gogh describes the origin of the first three works in this series: I have 3 canvases on the go, 1) 3 large flowers in a green vase, light background , 2) 3 flowers, one flower that’s gone to seed and lost its petals and a bud on a royal blue background, 3) twelve flowers and buds in a yellow vase. So the last one is light on light, and will be the best, I hope.". A few days later Vincent writes in Letter 668: "I’m now on the fourth painting of sunflowers. This fourth one is a bouquet of 14 flowers and is on a yellow background."
 
-The painting is composed of impasto strokes, mostly in a vertical pattern. This creates a texture, which comes up off the canvas and adds dimension to the flat surface. The skin tone is muted with green and yellowish tones. Van Gogh used a mirror for his self-portraits which is why some mistakenly think that he lost part of his right ear instead of his left.
-</string>
+It is no doubt that Still Life: Vase with Fifteen Sunflowers is the most well-known work of Vincent van Gogh. When he drew the painting, he was abnormally excited. The golden petals of sunflowers bought him a sense of warmth. So his texture strokes made the whole picture have more sculptural beauty. The whole picture is full of shinning golden color, which aroused people with much spirit and force.
+
+To some extent, we can say that the sunflowers are the embodiment of Van Gogh. He believes that the golden stands for the color of sun, while the sun is the representation for love, so the golden color has special meaning. He expresses himself by all kinds of flowers postures in Still Life: Vase with Fifteen Sunflowers, sometimes he even compares himself to the sunflowers.
+
+For Van Gogh, sunflowers are the best material to convey his thoughts. The summer is transient, and the sunflowers’ season is also short. Like the sunflowers, he ends his transient life. He is the sunflowers painter forever in our mind.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -942,7 +948,7 @@ The painting is composed of impasto strokes, mostly in a vertical pattern. This 
                                 <rect key="frame" x="67" y="497" width="292" height="56.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Aug, 1888
+                                <string key="text">Aug., 1888
 oil on canvas, 93 x 73 cm
 National Gallery, London</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1030,13 +1036,13 @@ National Gallery, London</string>
                                 <rect key="frame" x="47" y="478" width="320" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+                                <mutableString key="text">On May 8, 1889, Vincent Van Gogh committed himself to the asylum at Saint Paul-de-Mausole in Saint-Remy, France after many instances of hospitalization and self-mutilation. 
 
-The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
+Inspired by the nature surrounding him, Van Gogh began his work on Irises within the first week of his stay at the asylum. Irises was most likely influenced by Japanese woodblock prints which were produced beginning in the 17th century. The similarities occur with strong outlines, unusual angles, including close-up views, and also flattish local color (not modeled according to the fall of light). The painting is full of softness and lightness. Irises is full of life without tragedy.
 
-Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
+Each one of Van Gogh's irises is unique. He carefully studied their movements and shapes to create a variety of curved silhouettes bounded by wavy, twisting, and curling lines. 
 
-In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </string>
+Irises is on the list of the most expensive paintings ever sold, selling for 54 million dollars in 1987. Currently Irises is on display at The Getty Center in Los Angeles, California.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1049,12 +1055,12 @@ In fact, this night scene was prompted by a genuinely moving experience of the e
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rX3-ox-Rr2">
-                                <rect key="frame" x="38" y="403" width="292" height="56.5"/>
+                                <rect key="frame" x="38" y="403" width="339" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">sep,1888
-oil on canvas, 72.5 x 92 cm
-Musée d'Orsay, Paris</string>
+                                <string key="text">May,1889
+oil on canvas, 71 x 93 cm
+J. Paul Getty Museum, Los Angeles, California</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1080,7 +1086,7 @@ Musée d'Orsay, Paris</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NiL-XJ-y55" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1071" y="1525"/>
+            <point key="canvasLocation" x="-1071.0144927536232" y="1524.7767857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ggq-xQ-EH0">
@@ -1140,13 +1146,13 @@ Musée d'Orsay, Paris</string>
                                 <rect key="frame" x="47" y="478" width="320" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+                                <mutableString key="text">Vincent van Gogh painted Starry Night in 1889 during his stay at the asylum of Saint-Paul-de-Mausole near Saint-Rémy-de-Provence. 
 
-The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
+Van Gogh lived well in the hospital; he was allowed more freedoms than any of the other patients. If attended, he could leave the hospital grounds; he was allowed to paint, read, and withdraw into his own room. He was even given a studio. 
 
-Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
+While he suffered from the occasional relapse into paranoia and fits - officially he had been diagnosed with epileptic fits - it seemed his mental health was recovering.Unfortunately, he relapsed. He began to suffer hallucination and have thoughts of suicide as he plunged into depression. Accordingly, there was a tonal shift in his work. 
 
-In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </string>
+He returned to incorporating the darker colors from the beginning of his career and Starry Night is a wonderful example of that shift. Blue dominates the painting, blending hills into the sky. The little village lays at the base in the painting in browns, greys, and blues. Even though each building is clearly outlined in black, the yellow and white of the stars and the moon stand out against the sky, drawing the eyes to the sky. They are the big attention grabber of the painting.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1162,9 +1168,9 @@ In fact, this night scene was prompted by a genuinely moving experience of the e
                                 <rect key="frame" x="38" y="403" width="292" height="56.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">sep,1888
-oil on canvas, 72.5 x 92 cm
-Musée d'Orsay, Paris</string>
+                                <string key="text">Jun.,1889
+oil on canvas, 73.7 x 92.1 cm
+Museum of Modern Art, New York City</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1250,19 +1256,17 @@ Musée d'Orsay, Paris</string>
                                 <rect key="frame" x="47" y="370" width="320" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+                                <mutableString key="text">Wheatfield with Crows is one of Van Gogh's most famous paintings. It is often claimed that this was his very last work. However, art historians are uncertain as to which painting was van Gogh's last, as no clear historical records exist. 
 
-The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
+The menacing sky, the crows and the dead-end path are said to refer to the end of his life approaching. But that is just a persistent myth. 
 
-Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
-
-In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </string>
+Van Gogh did want his wheatfields under stormy skies to express 'sadness, extreme loneliness', but at the same time he wanted to show what he considered 'healthy and fortifying about the countryside'. He used powerful colour combinations in this painting: the blue sky contrasts with the yellow-orange wheat, while the red of the path is intensified by the green bands of grass.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wheatfield with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0G-eY-ByQ">
-                                <rect key="frame" x="143" y="98" width="128" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wheatfield with Crows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0G-eY-ByQ">
+                                <rect key="frame" x="116" y="98" width="182" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
                                 <nil key="textColor"/>
@@ -1272,9 +1276,9 @@ In fact, this night scene was prompted by a genuinely moving experience of the e
                                 <rect key="frame" x="38" y="295" width="292" height="56.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">sep,1888
-oil on canvas, 72.5 x 92 cm
-Musée d'Orsay, Paris</string>
+                                <string key="text">Jun.,1890
+oil on canvas, 50.5 x 103 cm
+Van Gogh Museum, Amsterdam</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1300,7 +1304,7 @@ Musée d'Orsay, Paris</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LPJ-2t-GBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3017.3913043478265" y="1524.7767857142856"/>
+            <point key="canvasLocation" x="-2371" y="1525"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ipt-lK-9nz">
@@ -1346,7 +1350,224 @@ Musée d'Orsay, Paris</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZl-3O-wHq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-2371" y="2196"/>
+        </scene>
+        <!--Bedroom View Controller-->
+        <scene sceneID="pkN-U1-dd6">
+            <objects>
+                <viewController id="lwg-KX-djV" customClass="BedroomViewController" customModule="VanGogh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uaf-YV-Dmb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="D5K-EH-IoE">
+                                <rect key="frame" x="47" y="486" width="320" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Vincent van Gogh painted Starry Night in 1889 during his stay at the asylum of Saint-Paul-de-Mausole near Saint-Rémy-de-Provence. 
+
+Van Gogh lived well in the hospital; he was allowed more freedoms than any of the other patients. If attended, he could leave the hospital grounds; he was allowed to paint, read, and withdraw into his own room. He was even given a studio. 
+
+While he suffered from the occasional relapse into paranoia and fits - officially he had been diagnosed with epileptic fits - it seemed his mental health was recovering.Unfortunately, he relapsed. He began to suffer hallucination and have thoughts of suicide as he plunged into depression. Accordingly, there was a tonal shift in his work. 
+
+He returned to incorporating the darker colors from the beginning of his career and Starry Night is a wonderful example of that shift. Blue dominates the painting, blending hills into the sky. The little village lays at the base in the painting in browns, greys, and blues. Even though each building is clearly outlined in black, the yellow and white of the stars and the moon stand out against the sky, drawing the eyes to the sky. They are the big attention grabber of the painting.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vincent ’s Bedroom in Arles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dK-1p-x5T">
+                                <rect key="frame" x="98" y="98" width="218" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rYj-ZU-OJi">
+                                <rect key="frame" x="38" y="403" width="292" height="56.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">,1888
+oil on canvas, 72 x 90 cm
+Van Gogh Museum, Amsterdam</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="在亞爾的臥室_version1" translatesAutoresizingMaskIntoConstraints="NO" id="hf6-1e-4dE">
+                                <rect key="frame" x="38" y="138" width="339" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KL1-ls-aeH">
+                                <rect key="frame" x="38" y="138" width="339" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="dn3-lT-Ac9" kind="show" id="Bsn-QU-apP"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="S1u-X3-GIB">
+                                <rect key="frame" x="149" y="454" width="116" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" systemColor="systemGray2Color"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="systemBrownColor"/>
+                                <connections>
+                                    <action selector="bedroomControl:" destination="lwg-KX-djV" eventType="valueChanged" id="DkC-u1-OLm"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="66W-dh-sjD"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WKB-7A-O9j"/>
+                    <connections>
+                        <outlet property="bedroomButton" destination="KL1-ls-aeH" id="SGz-Fe-Kjg"/>
+                        <outlet property="bedroomImageView" destination="hf6-1e-4dE" id="JHl-4i-IOe"/>
+                        <outlet property="bedroomPageController" destination="S1u-X3-GIB" id="rtN-Qr-2Rl"/>
+                        <outlet property="bedroomTextView" destination="rYj-ZU-OJi" id="rFM-Ho-SJv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Boh-WO-0d1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3017" y="1525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yNX-cK-ha2">
+            <objects>
+                <viewController id="dn3-lT-Ac9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Co-uq-CCQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="woJ-ZM-Tid">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OcE-gN-Yod">
+                                        <rect key="frame" x="0.0" y="0.0" width="876" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="在亞爾的臥室_version1" translatesAutoresizingMaskIntoConstraints="NO" id="TUF-7s-gI9">
+                                                <rect key="frame" x="0.0" y="0.0" width="888" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="bmI-pk-WYZ"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="hs5-La-UI6"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="uT9-3K-DDJ"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="876" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="220" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h3R-OU-Fwa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gPD-IQ-dOF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LIP-NP-LbY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="-3017.3913043478265" y="2195.7589285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XC8-Z6-Q01">
+            <objects>
+                <viewController id="RIC-gE-Sm1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Xa-mu-1hF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="EW7-yW-kuL">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Tb-ex-dEL">
+                                        <rect key="frame" x="0.0" y="0.0" width="876" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="在亞爾的臥室_version3" translatesAutoresizingMaskIntoConstraints="NO" id="U25-8m-Vwd">
+                                                <rect key="frame" x="0.0" y="0.0" width="904" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="ttd-bV-2AU"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="fdh-Yc-9ul"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="bKS-Wq-yKS"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="876" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="220" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HQS-cA-OiC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a7j-c2-rYv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OJL-5C-SwI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4294.202898550725" y="2195.7589285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fNy-Lv-7LV">
+            <objects>
+                <viewController id="IDK-pG-fQr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VzA-xZ-ua6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="ld1-yJ-NoO">
+                                <rect key="frame" x="0.0" y="96" width="414" height="703"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hl-2c-lWd">
+                                        <rect key="frame" x="0.0" y="0.0" width="876" height="703"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="在亞爾的臥室_version2" translatesAutoresizingMaskIntoConstraints="NO" id="1rG-Qj-Qs6">
+                                                <rect key="frame" x="0.0" y="0.0" width="898" height="703"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="u8K-LB-Y50"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="QgX-7q-yY3"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3th-nI-vdP"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="876" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="220" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WxK-ad-9Z8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dMh-ca-PVm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vy-Yy-9HB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3655.0724637681164" y="2195.7589285714284"/>
         </scene>
     </scenes>
     <resources>
@@ -1356,7 +1577,9 @@ Musée d'Orsay, Paris</string>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="person.text.rectangle" catalog="system" width="128" height="93"/>
         <image name="吃馬鈴薯的人" width="960" height="676"/>
-        <image name="在亞爾的臥室version3" width="1200" height="930"/>
+        <image name="在亞爾的臥室_version1" width="800" height="635"/>
+        <image name="在亞爾的臥室_version2" width="1000" height="780"/>
+        <image name="在亞爾的臥室_version3" width="1200" height="930"/>
         <image name="夜晚露天咖啡座" width="960" height="1215"/>
         <image name="夜間咖啡館" width="1200" height="947"/>
         <image name="星夜" width="738" height="590"/>
@@ -1370,6 +1593,12 @@ Musée d'Orsay, Paris</string>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

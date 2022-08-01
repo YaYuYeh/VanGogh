@@ -227,6 +227,26 @@ SWIFT_CLASS("_TtC7VanGogh11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
+@class UIImageView;
+@class UITextView;
+@class UIPageControl;
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC7VanGogh21BedroomViewController")
+@interface BedroomViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified bedroomButton;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified bedroomImageView;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified bedroomTextView;
+@property (nonatomic, weak) IBOutlet UIPageControl * _Null_unspecified bedroomPageController;
+- (IBAction)bedroomControl:(UIPageControl * _Nonnull)sender;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIScene;
 
@@ -242,9 +262,6 @@ SWIFT_CLASS("_TtC7VanGogh13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSString;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC7VanGogh14ViewController")
 @interface ViewController : UIViewController

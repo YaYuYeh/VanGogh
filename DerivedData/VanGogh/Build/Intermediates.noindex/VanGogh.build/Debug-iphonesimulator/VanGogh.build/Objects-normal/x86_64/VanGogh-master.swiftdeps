@@ -1,8 +1,9 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1658881005, 834318161]
-build_end_time: [1658881008, 695718050]
+build_start_time: [1659339763, 732738971]
+build_end_time: [1659339763, 955546855]
 inputs:
   "/Users/yeh/Desktop/project/VanGogh/VanGogh/AppDelegate.swift": [1658880988, 962929248]
+  "/Users/yeh/Desktop/project/VanGogh/VanGogh/BedroomViewController.swift": [1659339763, 572103023]
   "/Users/yeh/Desktop/project/VanGogh/VanGogh/SceneDelegate.swift": [1658880988, 990813732]
   "/Users/yeh/Desktop/project/VanGogh/VanGogh/ViewController.swift": [1658880988, 990952014]

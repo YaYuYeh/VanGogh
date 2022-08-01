@@ -74,6 +74,40 @@
 			<key>uniqueIdentifier</key>
 			<string>18DC21D4-D11D-4977-9338-7F4EF5186410</string>
 		</dict>
+		<key>20B9F1B1-B032-4AAB-8620-A5D84789B71A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>20B9F1B1-B032-4AAB-8620-A5D84789B71A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681032264.72781003</real>
+			<key>timeStoppedRecording</key>
+			<real>681032271.79971898</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>20B9F1B1-B032-4AAB-8620-A5D84789B71A</string>
+		</dict>
 		<key>3071C0A5-CD76-4379-AF7E-5C4E1664A17C</key>
 		<dict>
 			<key>className</key>
@@ -107,6 +141,108 @@
 			<string>Build VanGogh</string>
 			<key>uniqueIdentifier</key>
 			<string>3071C0A5-CD76-4379-AF7E-5C4E1664A17C</string>
+		</dict>
+		<key>363352EC-4335-4F79-8C7A-0838D0338990</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>363352EC-4335-4F79-8C7A-0838D0338990.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681027509.08803594</real>
+			<key>timeStoppedRecording</key>
+			<real>681027509.17704797</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>363352EC-4335-4F79-8C7A-0838D0338990</string>
+		</dict>
+		<key>3829AE85-112A-4A25-9171-5D4D2556C4AD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3829AE85-112A-4A25-9171-5D4D2556C4AD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681029174.004673</real>
+			<key>timeStoppedRecording</key>
+			<real>681029174.06167495</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>3829AE85-112A-4A25-9171-5D4D2556C4AD</string>
+		</dict>
+		<key>388C74E5-F331-4D9F-AEF3-9E028C4E67F0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>388C74E5-F331-4D9F-AEF3-9E028C4E67F0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681028297.10268795</real>
+			<key>timeStoppedRecording</key>
+			<real>681028297.88760304</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>388C74E5-F331-4D9F-AEF3-9E028C4E67F0</string>
 		</dict>
 		<key>4302E640-E811-4189-A09E-FEFF75829AEE</key>
 		<dict>
@@ -346,6 +482,74 @@
 			<key>uniqueIdentifier</key>
 			<string>638D9C41-2080-41F9-B0B9-15828EB1F097</string>
 		</dict>
+		<key>684B3CEE-5132-4EE3-8709-05D83C0FD075</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>684B3CEE-5132-4EE3-8709-05D83C0FD075.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681032257.76817298</real>
+			<key>timeStoppedRecording</key>
+			<real>681032264.72041798</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>684B3CEE-5132-4EE3-8709-05D83C0FD075</string>
+		</dict>
+		<key>79AA3EB1-0C41-4A29-9406-C425962441E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>79AA3EB1-0C41-4A29-9406-C425962441E4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681032563.57691205</real>
+			<key>timeStoppedRecording</key>
+			<real>681032564.14289606</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>79AA3EB1-0C41-4A29-9406-C425962441E4</string>
+		</dict>
 		<key>7A7113F5-DCD6-47C7-8B63-C666B1131E18</key>
 		<dict>
 			<key>className</key>
@@ -448,6 +652,74 @@
 			<key>uniqueIdentifier</key>
 			<string>89573E38-A922-45C1-B973-2B900191D727</string>
 		</dict>
+		<key>8E697737-B72C-4CAA-A2DC-E516A9A097F5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8E697737-B72C-4CAA-A2DC-E516A9A097F5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681025451.28051603</real>
+			<key>timeStoppedRecording</key>
+			<real>681025454.35859096</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>8E697737-B72C-4CAA-A2DC-E516A9A097F5</string>
+		</dict>
+		<key>97DF6816-7817-4BBE-91BF-19974AEBD2C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>97DF6816-7817-4BBE-91BF-19974AEBD2C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681031993.28400898</real>
+			<key>timeStoppedRecording</key>
+			<real>681031996.39328504</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>97DF6816-7817-4BBE-91BF-19974AEBD2C4</string>
+		</dict>
 		<key>A99274AD-D20B-4BE0-BFEE-4732A1DA0992</key>
 		<dict>
 			<key>className</key>
@@ -515,6 +787,40 @@
 			<string>Build VanGogh</string>
 			<key>uniqueIdentifier</key>
 			<string>A9D7AE25-8B1F-4624-96CE-3E58A22CB313</string>
+		</dict>
+		<key>B743CFEE-108F-4E58-B030-6DDFE884E66D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B743CFEE-108F-4E58-B030-6DDFE884E66D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681030245.20381904</real>
+			<key>timeStoppedRecording</key>
+			<real>681030245.73220205</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>B743CFEE-108F-4E58-B030-6DDFE884E66D</string>
 		</dict>
 		<key>B7C735AA-0EBF-4504-9AD2-082A74BF51CB</key>
 		<dict>
@@ -855,6 +1161,142 @@
 			<string>Build VanGogh</string>
 			<key>uniqueIdentifier</key>
 			<string>E508C423-EAFE-48D7-905A-851FE282754A</string>
+		</dict>
+		<key>E6BEC999-F8EA-4C2D-8FE9-DCFDB8621793</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6BEC999-F8EA-4C2D-8FE9-DCFDB8621793.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681027502.11869299</real>
+			<key>timeStoppedRecording</key>
+			<real>681027506.64577401</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>E6BEC999-F8EA-4C2D-8FE9-DCFDB8621793</string>
+		</dict>
+		<key>E91EAFF5-3AB9-42C7-92FF-5D912BDE4735</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E91EAFF5-3AB9-42C7-92FF-5D912BDE4735.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681029035.34755802</real>
+			<key>timeStoppedRecording</key>
+			<real>681029038.90609396</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>E91EAFF5-3AB9-42C7-92FF-5D912BDE4735</string>
+		</dict>
+		<key>EC1915B4-2543-4820-8306-76F74944DDBE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EC1915B4-2543-4820-8306-76F74944DDBE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681028302.61932504</real>
+			<key>timeStoppedRecording</key>
+			<real>681028303.82959902</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>EC1915B4-2543-4820-8306-76F74944DDBE</string>
+		</dict>
+		<key>F2C4CAC6-C369-4B04-A752-5AF2276A870C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F2C4CAC6-C369-4B04-A752-5AF2276A870C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VanGogh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VanGogh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build VanGogh</string>
+			<key>timeStartedRecording</key>
+			<real>681027392.46004605</real>
+			<key>timeStoppedRecording</key>
+			<real>681027398.518224</real>
+			<key>title</key>
+			<string>Build VanGogh</string>
+			<key>uniqueIdentifier</key>
+			<string>F2C4CAC6-C369-4B04-A752-5AF2276A870C</string>
 		</dict>
 		<key>F6418453-F309-4B96-8596-A111AD1B2BA3</key>
 		<dict>
