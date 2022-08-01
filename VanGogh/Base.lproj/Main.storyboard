@@ -437,13 +437,13 @@ He painted the five figures in earth colours – ‘something like the colour of
                                 <rect key="frame" x="47" y="472" width="320" height="319"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">In the center of the canvas Van Gogh shows a billiards table not being used. We see 3 walls of the room with a door opposite the viewer. The walls are lined with tables and chairs, some occupied by figures, hunched over the tables. Most of the six figures are men, but there is a woman at one table. Standing close to the pool table, leaning on another table is a standing figure wearing white, the owner of the café. On the far wall by the door there is a bar with bottles on top and a vase of flowers in the center. 
+                                <string key="text">In the center of the canvas Van Gogh shows a billiards table not being used. We see 3 walls of the room with a door opposite the viewer. The walls are lined with tables and chairs, some occupied by figures, hunched over the tables. Most of the six figures are men, but there is a woman at one table. Standing close to the pool table, leaning on another table is a standing figure wearing white, the owner of the café. On the far wall by the door there is a bar with bottles on top and a vase of flowers in the center. 
 
 Van Gogh was interested in these people “Night prowlers” he called that stayed there because they “had no money to pay for a lodging, or are too drunk to be taken in.” He imagined that they saw themselves as travelers without a native land, and he himself imagined himself the same way. While he didn’t see himself like them, he imagined having similar feelings.
 
 In a letter to his brother, Van Gogh called the painting “the ugliest I’ve done” and gave it to Joseph Ginoux the owner of the café as payment for his room. Also, used it to settle debts with Ginoux. 
 
-His calling the painting ugly is also a description of the room and the feeling you get from it. In his description of the painting, he uses words like “blood-red” to describe the color on the walls, “battle” to describe the contrast of reds and greens, and refers to those in the room as “ruffians.” The harsh colors and disorienting perspective reflect the overall sadness, bitterness, and loneliness, of those in the room. All of this adds up to an idea of if you are in this café at that late hour, something isn’t going right in your life.</mutableString>
+His calling the painting ugly is also a description of the room and the feeling you get from it. In his description of the painting, he uses words like “blood-red” to describe the color on the walls, “battle” to describe the contrast of reds and greens, and refers to those in the room as “ruffians.” The harsh colors and disorienting perspective reflect the overall sadness, bitterness, and loneliness, of those in the room. All of this adds up to an idea of if you are in this café at that late hour, something isn’t going right in your life.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -501,13 +501,13 @@ Yale University Art Gallery, New Haven</string>
                                 <rect key="frame" x="47" y="565" width="320" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Café Terrace at Night is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening (Café, le soir).
+                                <string key="text">Café Terrace at Night is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening (Café, le soir).
 
 Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888. The painting is not signed, but described and mentioned by the artist in three letters.
 
 Visitors to the site can stand at the north eastern corner of the Place du Forum, where the artist set up his easel. The site was refurbished in 1990 and 1991 to replicate van Gogh's painting. He looked south towards the artificially lit terrace of the popular coffee house, as well as into the enforced darkness of the rue du Palais which led up to a building structure and, beyond this structure, the tower of a former church which is now Musée Lapidaire.
 
-Towards the right, Van Gogh indicated a lighted shop and some branches of the trees surrounding the place, but he omitted the remainders of the Roman monuments just beside this little shop.</mutableString>
+Towards the right, Van Gogh indicated a lighted shop and some branches of the trees surrounding the place, but he omitted the remainders of the Roman monuments just beside this little shop.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -564,13 +564,13 @@ oil on canvas, 80.7 x 65.3 cm Kröller-Müller Museum, Otterlo</string>
                                 <rect key="frame" x="47" y="478" width="320" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+                                <string key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
 
 The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
 
 Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
 
-In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -647,6 +647,9 @@ Musée d'Orsay, Paris</string>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="892" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="200" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
@@ -671,12 +674,12 @@ Musée d'Orsay, Paris</string>
                                 <rect key="frame" x="47" y="553" width="320" height="238"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">This famous painting, Self-Portrait with Bandaged Ear by Vincent van Gogh, expresses his artistic power and personal struggles. Van Gogh painted it in January 1889, a week after leaving hospital. He had received treatment there after cutting off most of his left ear (shown here as the bandaged right ear because he painted himself in a mirror). This self-mutilation was a desperate act committed a few weeks earlier, following a heated argument with his fellow painter Paul Gauguin.
+                                <string key="text">This famous painting, Self-Portrait with Bandaged Ear by Vincent van Gogh, expresses his artistic power and personal struggles. Van Gogh painted it in January 1889, a week after leaving hospital. He had received treatment there after cutting off most of his left ear (shown here as the bandaged right ear because he painted himself in a mirror). This self-mutilation was a desperate act committed a few weeks earlier, following a heated argument with his fellow painter Paul Gauguin.
 
 The fur cap Van Gogh wears in this painting is a reminder of the harsh working conditions he faced in January 1889. This self-portrait is thus powerful proof of Van Gogh’s determination to continue painting. It is reinforced by the objects behind him, which take on a symbolic meaning: a canvas on an easel,  and a Japanese print, an important source of inspiration. This Japanese print has been identified as a Geishas in a Landscape published by Sato Tokyo in the 1870s. This shows an important influence of Japonism and wood block print on Van Gogh's work.
 
 The painting is composed of impasto strokes, mostly in a vertical pattern. This creates a texture, which comes up off the canvas and adds dimension to the flat surface. The skin tone is muted with green and yellowish tones. Van Gogh used a mirror for his self-portraits which is why some mistakenly think that he lost part of his right ear instead of his left.
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -753,6 +756,9 @@ Courtauld Gallery, London</string>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="565" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="70" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
@@ -795,6 +801,9 @@ Courtauld Gallery, London</string>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="557" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="70" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
@@ -839,6 +848,9 @@ Courtauld Gallery, London</string>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="890" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="220" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
@@ -882,6 +894,9 @@ Courtauld Gallery, London</string>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="984" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="270" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
@@ -906,12 +921,12 @@ Courtauld Gallery, London</string>
                                 <rect key="frame" x="47" y="571" width="320" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">This famous painting, Self-Portrait with Bandaged Ear by Vincent van Gogh, expresses his artistic power and personal struggles. Van Gogh painted it in January 1889, a week after leaving hospital. He had received treatment there after cutting off most of his left ear (shown here as the bandaged right ear because he painted himself in a mirror). This self-mutilation was a desperate act committed a few weeks earlier, following a heated argument with his fellow painter Paul Gauguin.
+                                <string key="text">This famous painting, Self-Portrait with Bandaged Ear by Vincent van Gogh, expresses his artistic power and personal struggles. Van Gogh painted it in January 1889, a week after leaving hospital. He had received treatment there after cutting off most of his left ear (shown here as the bandaged right ear because he painted himself in a mirror). This self-mutilation was a desperate act committed a few weeks earlier, following a heated argument with his fellow painter Paul Gauguin.
 
 The fur cap Van Gogh wears in this painting is a reminder of the harsh working conditions he faced in January 1889. This self-portrait is thus powerful proof of Van Gogh’s determination to continue painting. It is reinforced by the objects behind him, which take on a symbolic meaning: a canvas on an easel,  and a Japanese print, an important source of inspiration. This Japanese print has been identified as a Geishas in a Landscape published by Sato Tokyo in the 1870s. This shows an important influence of Japonism and wood block print on Van Gogh's work.
 
 The painting is composed of impasto strokes, mostly in a vertical pattern. This creates a texture, which comes up off the canvas and adds dimension to the flat surface. The skin tone is muted with green and yellowish tones. Van Gogh used a mirror for his self-portraits which is why some mistakenly think that he lost part of his right ear instead of his left.
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -988,6 +1003,9 @@ National Gallery, London</string>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="549" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="70" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
@@ -1012,13 +1030,13 @@ National Gallery, London</string>
                                 <rect key="frame" x="47" y="478" width="320" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+                                <string key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
 
 The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
 
 Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
 
-In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1095,6 +1113,9 @@ Musée d'Orsay, Paris</string>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="880" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="220" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
@@ -1119,13 +1140,13 @@ Musée d'Orsay, Paris</string>
                                 <rect key="frame" x="47" y="478" width="320" height="313"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+                                <string key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
 
 The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
 
 Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
 
-In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1202,6 +1223,9 @@ Musée d'Orsay, Paris</string>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="876" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="220" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
@@ -1226,13 +1250,13 @@ Musée d'Orsay, Paris</string>
                                 <rect key="frame" x="47" y="370" width="320" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
+                                <string key="text">Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time.
 
 The view is from the quay on the east side of the Rhône, into the knee of the river towards the western shore: coming down from the north, the Rhône turns to the right at this point to surround the rocks on which Arles is built. From the towers of Saint-Julien and Saint-Trophime at the left, the spectator follows the east bank up to the iron bridge connecting Arles to the suburb of Trinquetaille on the right, western bank. This implies a view from Place Lamartine towards the southwest. 
 
 Depicting color was of great importance to Van Gogh. In letters to his brother, Theo van Gogh, he often described objects in his paintings in terms of color. His night paintings, including Starry Night Over the Rhone, emphasize the importance he placed in capturing the sparkling colors of the night sky and the artificial lighting that was new to this period. Here, everything lies spread beneath the sparkling tranquillity of the natural lights in the heavens. The glittering stars and wavy reflections in the water could scarcely cater better to Romantic tastes. 
 
-In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </mutableString>
+In fact, this night scene was prompted by a genuinely moving experience of the endless darkness, an experience Van Gogh describes in a letter: "Once I went for a walk along the deserted shore at night. It was not cheerful, it was not sad - it was beautiful." This is the only place in his letters where he is so far carried away as to invoke Beauty so emphatically - reason enough to view his enthusiasm as something more profound than a mere momentary indulgence in aesthetics. </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1308,6 +1332,9 @@ Musée d'Orsay, Paris</string>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="1487" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentOffset">
+                                        <size key="value" width="470" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
