@@ -34,29 +34,32 @@ oil on canvas, 57.5 x 74 cm
 Musée d'Orsay, Paris
 """
     ]
-    let button = ["button1", "button2", "button3"]
+    let button = ["bedroom1", "bedroom2", "bedroom3"]
 
     
-    
     var index = 0
+   
+    
+    
     @IBAction func bedroomControl(_ sender: UIPageControl)
     {
         index = bedroomPageController.currentPage
         bedroomImageView.image = UIImage(named: bedroom[index])
         bedroomTextView.text = intro[index]
     }
+    
+//    @IBAction func buttonPress(_ sender: Any)
+//    {
+////        if let bedroomPass = self.storyboard?.instantiateViewController(withIdentifier: "bedroom1")
+//    }
+    
+    
+    
+    //        bedroomButton.isHidden
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        
-        
-        
-        
-        // Do any additional setup after loading the view.
     }
     
-
     /*
     // MARK: - Navigation
 
