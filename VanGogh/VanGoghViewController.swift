@@ -1,18 +1,22 @@
 //
-//  Bedroom1ViewController.swift
+//  VanGoghViewController.swift
 //  VanGogh
 //
-//  Created by yeh on 2022/8/9.
+//  Created by Ya Yu Yeh on 2022/8/14.
 //
 
 import UIKit
 
-class Bedroom1ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class VanGoghViewController: UIViewController {
+    @IBOutlet weak var vangoghImage: UIImageView!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        vangoghImage.layer.cornerRadius = 100
+        vangoghImage.layer.borderWidth = 7
+        vangoghImage.layer.borderColor = UIColor.darkGray.cgColor
 
-        // Do any additional setup after loading the view.
     }
     
 

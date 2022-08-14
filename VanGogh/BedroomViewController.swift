@@ -9,10 +9,13 @@ import UIKit
 
 class BedroomViewController: UIViewController {
 
-    @IBOutlet weak var bedroomButton: UIButton!
+
     @IBOutlet weak var bedroomImageView: UIImageView!
     @IBOutlet weak var bedroomTextView: UITextView!
     @IBOutlet weak var bedroomPageController: UIPageControl!
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
     
     let bedroom = ["在亞爾的臥室_version1", "在亞爾的臥室_version2", "在亞爾的臥室_version3"]
     let intro = [
@@ -34,19 +37,57 @@ oil on canvas, 57.5 x 74 cm
 Musée d'Orsay, Paris
 """
     ]
-    let button = ["bedroom1", "bedroom2", "bedroom3"]
-
     
     var index = 0
-   
-    
+    func updatedUI()
+    {
+        bedroomImageView.image = UIImage(named: bedroom[index])
+        bedroomTextView.text = intro[index]
+        bedroomPageController.currentPage = index
+        
+        if index == 0
+        {
+            button2.isHidden = true
+            button3.isHidden = true
+        }
+        else if index == 1
+        {
+            button1.isHidden = true
+            button3.isHidden = true
+        }
+        else
+        {
+            button1.isHidden = true
+            button2.isHidden = true
+        }
+    }
     
     @IBAction func bedroomControl(_ sender: UIPageControl)
     {
         index = bedroomPageController.currentPage
-        bedroomImageView.image = UIImage(named: bedroom[index])
-        bedroomTextView.text = intro[index]
+        updatedUI()
     }
+    
+    @IBAction func pre(_ sender: Any)
+    {
+        index -= 1
+        if index < 0
+        {
+            index = bedroom.count - 1
+        }
+        updatedUI()
+    }
+    
+    @IBAction func next(_ sender: Any)
+    {
+        index += 1
+        if index == bedroom.count
+        {
+            index = 0
+        }
+        updatedUI()
+    }
+    
     
 //    @IBAction func buttonPress(_ sender: Any)
 //    {
