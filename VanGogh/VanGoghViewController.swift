@@ -13,9 +13,6 @@ class VanGoghViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        vangoghImage.layer.cornerRadius = 100
-        vangoghImage.layer.borderWidth = 7
-        vangoghImage.layer.borderColor = UIColor.darkGray.cgColor
 
     }
     

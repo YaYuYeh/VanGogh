@@ -14,6 +14,7 @@
 		842B4CCC288B061C005C7492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842B4CCA288B061C005C7492 /* Main.storyboard */; };
 		842B4CCE288B061D005C7492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842B4CCD288B061D005C7492 /* Assets.xcassets */; };
 		842B4CD1288B061D005C7492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842B4CCF288B061D005C7492 /* LaunchScreen.storyboard */; };
+		84D2DA5A28B0FFF9007D6D22 /* Paintings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D2DA5828B0FFF9007D6D22 /* Paintings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		842B4CCD288B061D005C7492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842B4CD0288B061D005C7492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842B4CD2288B061D005C7492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D2DA5928B0FFF9007D6D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = VanGogh/Base.lproj/Paintings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				841C48DE28A919BA009E0C11 /* VanGoghViewController.swift */,
 				841E86482897A1B500F8944C /* BedroomViewController.swift */,
 				842B4CCA288B061C005C7492 /* Main.storyboard */,
+				84D2DA5828B0FFF9007D6D22 /* Paintings.storyboard */,
 				842B4CCD288B061D005C7492 /* Assets.xcassets */,
 				842B4CCF288B061D005C7492 /* LaunchScreen.storyboard */,
 				842B4CD2288B061D005C7492 /* Info.plist */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D2DA5A28B0FFF9007D6D22 /* Paintings.storyboard in Resources */,
 				842B4CD1288B061D005C7492 /* LaunchScreen.storyboard in Resources */,
 				842B4CCE288B061D005C7492 /* Assets.xcassets in Resources */,
 				842B4CCC288B061C005C7492 /* Main.storyboard in Resources */,
@@ -165,6 +169,14 @@
 				842B4CD0288B061D005C7492 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84D2DA5828B0FFF9007D6D22 /* Paintings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D2DA5928B0FFF9007D6D22 /* Base */,
+			);
+			name = Paintings.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
